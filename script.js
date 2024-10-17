@@ -49,7 +49,7 @@ class FileManager {
       link.click();
       document.body.removeChild(link);
     } else {
-      alert("Nenhum arquivo original para baixar");
+      alert("There is no files to download");
     }
   }
 
